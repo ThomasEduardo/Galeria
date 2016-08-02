@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="ralative.ifpb.edu.br.testgallery.MainActivity"
+    android:clickable="false"
+    android:background="#f5dddd">
+
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="450px"
+        android:id="@+id/img44"
+        android:src="@drawable/img1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="450px"
+        android:id="@+id/img10"
+        android:src="@drawable/img10"
+        android:layout_alignParentEnd="true"
+        android:layout_above="@+id/textView2" />
+
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="450px"
+        android:id="@+id/img12"
+        android:src="@drawable/img12"
+        android:background="#f5dddd"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="300px"
+        android:layout_height="450px"
+        android:id="@+id/img18"
+        android:layout_alignBottom="@+id/img12"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/img18" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ARTE EM TELAS"
+        android:id="@+id/textView"
+        android:layout_alignTop="@+id/img12"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ARTE EM QUADROS"
+        android:id="@+id/textView2"
+        android:layout_alignBottom="@+id/img44"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ARTE EM PESSOAS"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/img10"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="ARTE EM PALAVRAS"
+        android:id="@+id/textView4"
+        android:layout_above="@+id/img18"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
